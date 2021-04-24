@@ -23,9 +23,9 @@ func main() {
 	d := Download{
 		// Provide the URL to download,
 		//	example: https://www.dropbox.com/s/lgvhj/sample.mp4?dl=1
-		Url: "",
+		Url: "https://data.whicdn.com/images/170077197/original.jpg",
 		// Provide the target file path with extension, example: sample.mp4
-		TargetPath: "",
+		TargetPath: "image.jpg",
 		// Number of sections/connections to make to the server
 		TotalSections: 10,
 	}
